@@ -5,7 +5,7 @@
 ### R code
 The `R` code presented here provides all the scripts required to run the superensemble of probabilistic dengue models 
 presented in the paper _"Probabilistic seasonal dengue forecasting in Vietnam using superensembles"_ submitted to 
-_eLife_ by FJ Colón-González et al. (2020). The code comprises seven ordered sub-routines. Each sub-routine has 
+_PLoS Medicine_ by FJ Colón-González et al. (2020). The code comprises seven ordered sub-routines. Each sub-routine has 
 a number that indicates its location in a sequence of steps starting at _00_ and ending at _06_. The sub-routine called 
 **06_Run_routines.R** contains all the commands required to load and perform all operations in sequence. We suggest 
 users only run that script. A description of each sub-routine is provided below.
@@ -22,8 +22,8 @@ series for their incorporation into the modelling framework.
 and ancillary data.
 
 **- 04_Fit_models.R:** Fits all probabilistic models required to generate the superensemble, and creates a superensemble
-of probabilistic dengue models using an Integrated nested Laplace approximations (INLA) approach and Bayesian Model 
-Averaging.
+of probabilistic dengue models using an Integrated nested Laplace approximations (INLA) approach and the Continuous 
+Rank Probability Score.
 
 **- 05_Model_outputs.R:** Generates _csv_ output files and stores them in the sub-folder _output_.
 
