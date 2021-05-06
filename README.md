@@ -32,5 +32,5 @@ sub-folders where data and scripts are stored.
 
 For any issues with the code please contact [Felipe J Colón-González](Felipe.Colon@lshtm.ac.uk)
 
-[DOI: 10.5281/zenodo.4740094](https://doi.org/10.5281/zenodo.4740094)
+DOI: [https://doi.org/10.5281/zenodo.4740094](https://doi.org/10.5281/zenodo.4740094)
 
